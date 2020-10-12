@@ -1,3 +1,5 @@
+/* to calculate length of the given Linked List */
+
 package linkedlist;
 
 public class LengthSLL {
@@ -12,7 +14,7 @@ public class LengthSLL {
 		}
 	}
 	
-	public int length()
+	public int length()					//function to calculate length of the Linked List
 	{
 		if (head==null)
 			return 0;
@@ -40,10 +42,10 @@ public class LengthSLL {
 		second.next = third;
 		third.next = fourth;
 		fourth.next = fifth;
-		fifth.next = sixth;
+		fifth.next = sixth;						
 				
 		int lengthsll = l.length();
-		System.out.println("Length of Linked List = "+lengthsll);
+		System.out.println("Length of Linked List = "+lengthsll);		//Length of Linked List = 6
 	}
 
 }
