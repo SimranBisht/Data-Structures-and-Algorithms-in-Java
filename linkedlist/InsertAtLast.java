@@ -1,3 +1,5 @@
+/* to insert a node at the end of the Linked List */
+
 package linkedlist;
 
 public class InsertAtLast {
@@ -15,7 +17,7 @@ public class InsertAtLast {
 		}
 	}
 	
-	public void insert(int d)
+	public void insert(int d)						//function to insert a node at the end of the Linked List
 	{
 		ListNode newNode = new ListNode(d);
 						
@@ -32,7 +34,7 @@ public class InsertAtLast {
 		
 	}
 	
-	public void display()
+	public void display()							//traverse through the Linked List
 	{
 		if (head==null)
 			System.out.println("Linked List is empty");
@@ -50,11 +52,11 @@ public class InsertAtLast {
 	public static void main(String args[])
 	{
 		InsertAtLast ial = new InsertAtLast();
-		ial.head = new ListNode(5);
-		ial.insert(10);
-		ial.insert(15);
-		ial.insert(20);
+		ial.head = new ListNode(5);					//5 --> null
+		ial.insert(10);							//5 --> 10 --> null
+		ial.insert(15);							//5 --> 10 --> 15 --> null
+		ial.insert(20);							//5 --> 10 --> 15 --> 20 --> null
 		
-		ial.display();
+		ial.display();							//5 --> 10 --> 15 --> 20 --> null
 	}
 }
