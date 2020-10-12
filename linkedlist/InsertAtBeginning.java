@@ -1,3 +1,5 @@
+/* To insert a node at the beginning of the Linked List */
+
 package linkedlist;
 
 public class InsertAtBeginning {
@@ -14,7 +16,7 @@ public class InsertAtBeginning {
 		}
 	}
 	
-	public void insert(int d)
+	public void insert(int d)                                       //function to insert a node at the beginning of the linked list
 	{
 		ListNode newNode = new ListNode(d);
 		
@@ -29,7 +31,7 @@ public class InsertAtBeginning {
 		}
 	}
 	
-	public void display()
+	public void display()                                          //function to display the Linked List
 	{
 		if (head==null)
 			System.out.println("Linked List is empty");
@@ -48,10 +50,10 @@ public class InsertAtBeginning {
 	{
 		InsertAtBeginning iab = new InsertAtBeginning();
 		iab.head = new ListNode(5);
-		iab.insert(4);
-		iab.insert(3);
-		iab.insert(0);
+		iab.insert(4);                                //4 --> 5
+		iab.insert(3);                                //3 --> 4 --> 5
+		iab.insert(0);                                //0 --> 3 --> 4 --> 5 
 		
-		iab.display();
+		iab.display();                                //0 --> 3 --> 4 --> 5
 	}
 }
