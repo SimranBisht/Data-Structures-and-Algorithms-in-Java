@@ -50,10 +50,10 @@ public class InsertAtBeginning {
 	{
 		InsertAtBeginning iab = new InsertAtBeginning();
 		iab.head = new ListNode(5);
-		iab.insert(4);                                //4 --> 5
-		iab.insert(3);                                //3 --> 4 --> 5
-		iab.insert(0);                                //0 --> 3 --> 4 --> 5 
+		iab.insert(4);                                //4 --> 5 --> null
+		iab.insert(3);                                //3 --> 4 --> 5 --> null
+		iab.insert(0);                                //0 --> 3 --> 4 --> 5 --> null
 		
-		iab.display();                                //0 --> 3 --> 4 --> 5
+		iab.display();                                //0 --> 3 --> 4 --> 5 --> null
 	}
 }
