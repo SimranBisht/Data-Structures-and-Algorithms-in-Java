@@ -5,7 +5,7 @@ package linkedlist;
 public class CreateSLL {
 	ListNode head;
 
-	static class ListNode
+	static class ListNode                                                 //to define structure of a Node
 	{
 		ListNode next;
 		int data;
@@ -15,7 +15,7 @@ public class CreateSLL {
 		}
 	}
 	
-	void display()
+	void display()                                                      //function to traverse through the Linked List
 	{
 		if (head==null)
 			System.out.println("Linked list is empty");
@@ -45,6 +45,6 @@ public class CreateSLL {
 		fourth.next = fifth;
 		fifth.next = sixth;
 		
-		sll.display();
+		sll.display();					     //10 --> 15 --> 20 --> 25 --> 30 --> null
 	}
 }
