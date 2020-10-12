@@ -1,3 +1,5 @@
+/* creates a Simple Linked List */
+
 package linkedlist;
 
 public class CreateSLL {
@@ -30,14 +32,14 @@ public class CreateSLL {
 	public static void main(String args[])
 	{
 		CreateSLL sll = new CreateSLL();
-		sll.head = new ListNode(5);
+		sll.head = new ListNode(5);                           //create six nodes with a head pointing to the first node
 		ListNode second = new ListNode(10);
 		ListNode third = new ListNode(15);
 		ListNode fourth = new ListNode(20);
 		ListNode fifth = new ListNode(25);
 		ListNode sixth = new ListNode(30);
 		
-		sll.head.next = second;
+		sll.head.next = second;                               //link the nodes to one another through the next i.e address part
 		second.next = third;
 		third.next = fourth;
 		fourth.next = fifth;
