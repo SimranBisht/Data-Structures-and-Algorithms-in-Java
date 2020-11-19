@@ -5,7 +5,10 @@ It is ->
 3. slow
 Time Complexity :-
 Worst Case = O(n*n)
-Best Case = O(n)*/
+Best Case = O(n)
+
+I have used ArrayList for sorting without simply using Collections.sort() to get direct results.
+*/
 
 
 package sortingAlgorithms;
