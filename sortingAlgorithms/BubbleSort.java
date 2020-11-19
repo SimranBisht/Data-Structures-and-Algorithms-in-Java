@@ -10,8 +10,6 @@ Best Case = O(n)
 I have used ArrayList for sorting without simply using Collections.sort() to get direct results.
 */
 
-
-package sortingAlgorithms;
 import java.util.*;
 
 public class BubbleSort 
