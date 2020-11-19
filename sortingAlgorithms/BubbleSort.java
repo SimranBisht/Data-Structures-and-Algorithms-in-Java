@@ -1,3 +1,13 @@
+/*In Bubble Sort, we compare each pair of adjacent element and then elements are swapped if they are not in order.
+It is ->
+1. inplace sorting algorithm
+2. stable sorting algorithm
+3. slow
+Time Complexity :-
+Worst Case = O(n*n)
+Best Case = O(n)*/
+
+
 package sortingAlgorithms;
 import java.util.*;
 
