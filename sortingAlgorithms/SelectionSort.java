@@ -1,4 +1,3 @@
-package sortingAlgorithms;
 /*In Selection Sort the entire list is divided into 2 parts - Sorted and Unsorted.
   In a set of N elements, find out the location of the minimum element and replace it with the first element in the unsorted list.
   Time Complexity : O(n*n) */
